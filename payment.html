@@ -23,7 +23,7 @@
             }
         });
     </script>
-   
+    <script src="https://assets.adobedtm.com/21b53c73144b/bd73161192e0/launch-6dd8d4d01c07-development.min.js" async></script>
     <style>
         .payment-container {
             max-width: 500px;
@@ -145,10 +145,10 @@
             const codButton = document.getElementById('cash-on-delivery');
             codButton.addEventListener('click', () => {
                 alert('Order placed successfully! You will pay upon delivery.');
-                localStorage.removeItem('cart');
-                localStorage.removeItem('cartDetails');
-                localStorage.removeItem('totalAmount');
-                window.location.href = 'index.html';
+                // localStorage.removeItem('cart');
+                // localStorage.removeItem('cartDetails');
+                // localStorage.removeItem('totalAmount');
+                window.location.href = 'thankyou.html';
             });
         });
     </script>
